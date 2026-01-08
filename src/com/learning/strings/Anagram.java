@@ -1,9 +1,9 @@
+package com.learning.strings;
+
 import java.util.Arrays;
 import java.util.HashMap;
-import java.util.Map;
 
 public class Anagram {
-
     static boolean isAnagramSorting(String a, String b){
         if(a.length() != b.length()){
             return false;
